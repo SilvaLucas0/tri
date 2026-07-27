@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="TRI Climatização">
+  <title>TRI Climatização</title>
+  <!-- Flame mark: three brand curves sweeping up-right -->
+  <g transform="translate(4,4)">
+    <path d="M12 78 C 10 46, 34 30, 70 16 C 46 34, 38 52, 44 74 C 40 76, 22 80, 12 78 Z" fill="#178A3C"/>
+    <path d="M30 78 C 28 44, 52 28, 84 12 C 62 32, 54 52, 60 74 C 54 77, 40 80, 30 78 Z" fill="#D8232A"/>
+    <path d="M48 78 C 47 46, 70 30, 98 14 C 80 34, 72 54, 76 74 C 70 77, 58 80, 48 78 Z" fill="#F2B90C"/>
+  </g>
+  <!-- Wordmark -->
+  <g font-family="Archivo, Arial, sans-serif" font-weight="800" letter-spacing="-1">
+    <text x="118" y="52" font-size="46" fill="#178A3C">T</text>
+    <text x="150" y="52" font-size="46" fill="#D8232A">R</text>
+    <text x="186" y="52" font-size="46" fill="#F2B90C">I</text>
+  </g>
+  <text x="119" y="78" font-family="Archivo, Arial, sans-serif" font-weight="600" font-size="15.5" letter-spacing="4.5" fill="#1A1D21">CLIMATIZAÇÃO</text>
+</svg>

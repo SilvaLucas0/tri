@@ -1,0 +1,27 @@
+CRÉDITOS DAS IMAGENS (temporárias — recomendado substituir por fotos reais da TRI)
+=================================================================================
+
+Estas imagens foram baixadas de acervos livres apenas para preencher o layout.
+O ideal é trocá-las pelas fotos reais da TRI Climatização (ex.: @triclimatizacao).
+
+- hero.jpg
+  Técnico HVAC com manifold. Fonte: Wikimedia Commons ("379th ECES HVAC
+  technicians...", 8502255). Licença: Domínio público (U.S. Air Force). Sem
+  exigência de atribuição.
+
+- diagnostico.jpg  (reserva, não usada na página atual)
+  Mesma série (8502257). Licença: Domínio público. Sem exigência de atribuição.
+
+- residencial.jpg
+  "Woman adjusting air conditioning remote in modern living room".
+  Fonte: Wikimedia Commons. Licença: CC BY 2.0 — EXIGE ATRIBUIÇÃO ao autor
+  se mantida em produção.
+
+- empresarial.jpg
+  "Ceiling air conditioner". Fonte: Wikimedia Commons.
+  Licença: CC BY-SA 4.0 — EXIGE ATRIBUIÇÃO e mesma licença (share-alike)
+  se mantida em produção.
+
+IMPORTANTE: para uso comercial mantendo residencial.jpg e empresarial.jpg,
+inclua os créditos dos autores (nome + link + licença), ou substitua por
+fotos próprias da empresa (sem qualquer exigência de atribuição).
