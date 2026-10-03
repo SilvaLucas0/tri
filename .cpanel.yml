@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/lenosa04/public_html/
+    - /bin/cp -R assets css js $DEPLOYPATH
+    - /bin/cp index.html politica-de-privacidade.html robots.txt site.webmanifest sitemap.xml $DEPLOYPATH
+    
