@@ -183,8 +183,14 @@ button{font-family:inherit}
 }
 .mobile-nav[data-open="true"]{transform:translateX(0)}
 .mobile-nav__head{display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--sp-4)}
-.mobile-nav a{padding:.85rem .25rem;font-family:var(--font-head);font-weight:600;font-size:1.1rem;color:var(--ink);border-bottom:1px solid var(--line)}
-.mobile-nav a:hover{color:var(--green-700);text-decoration:none}
+.mobile-nav nav{display:flex;flex-direction:column}
+.mobile-nav nav a{
+  display:flex;align-items:center;justify-content:space-between;min-height:52px;
+  padding:.85rem .5rem;font-family:var(--font-head);font-weight:600;font-size:1.1rem;
+  color:var(--ink);border-bottom:1px solid var(--line);border-radius:var(--radius-sm)
+}
+.mobile-nav nav a::after{content:"›";font-size:1.4rem;line-height:1;color:var(--ink-soft)}
+.mobile-nav nav a:hover,.mobile-nav nav a:active{color:var(--green-700);background:var(--surface-2);text-decoration:none}
 .mobile-nav .btn{margin-top:var(--sp-6)}
 .scrim{position:fixed;inset:0;background:rgba(15,20,18,.5);z-index:55;opacity:0;visibility:hidden;transition:opacity .25s ease}
 .scrim[data-open="true"]{opacity:1;visibility:visible}
