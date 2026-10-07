@@ -1,16 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="TRI Climatização">
-  <title>TRI Climatização</title>
-  <!-- Flame mark: three brand curves sweeping up-right -->
-  <g transform="translate(4,4)">
-    <path d="M12 78 C 10 46, 34 30, 70 16 C 46 34, 38 52, 44 74 C 40 76, 22 80, 12 78 Z" fill="#178A3C"/>
-    <path d="M30 78 C 28 44, 52 28, 84 12 C 62 32, 54 52, 60 74 C 54 77, 40 80, 30 78 Z" fill="#D8232A"/>
-    <path d="M48 78 C 47 46, 70 30, 98 14 C 80 34, 72 54, 76 74 C 70 77, 58 80, 48 78 Z" fill="#F2B90C"/>
-  </g>
-  <!-- Wordmark -->
-  <g font-family="Archivo, Arial, sans-serif" font-weight="800" letter-spacing="-1">
-    <text x="118" y="52" font-size="46" fill="#178A3C">T</text>
-    <text x="150" y="52" font-size="46" fill="#D8232A">R</text>
-    <text x="186" y="52" font-size="46" fill="#F2B90C">I</text>
-  </g>
-  <text x="119" y="78" font-family="Archivo, Arial, sans-serif" font-weight="600" font-size="15.5" letter-spacing="4.5" fill="#1A1D21">CLIMATIZAÇÃO</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536 568" width="536" height="568">
+  <defs>
+    <linearGradient id="redOrange" x1="80" y1="200" x2="410" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E3211F"/>
+      <stop offset="0.62" stop-color="#E3211F"/>
+      <stop offset="0.8" stop-color="#F28A1E"/>
+      <stop offset="1" stop-color="#E3211F"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="88" y1="230" x2="470" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7B500"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FCC40A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chamas / folhas -->
+  <!-- verde superior -->
+  <path fill="#1E8E3E" d="M62,240 C95,160 180,100 286,56 C306,105 290,150 232,178 C170,206 105,212 62,240 Z"/>
+  <!-- faixa vermelha fina -->
+  <path fill="#E3211F" d="M70,252 C130,205 205,200 262,186 C230,206 160,222 70,252 Z"/>
+  <!-- faixa amarela fina -->
+  <path fill="#F7B500" d="M78,262 C140,228 210,222 270,208 C232,230 165,242 78,262 Z"/>
+  <!-- vermelho principal -->
+  <path fill="url(#redOrange)" d="M82,266 C160,226 240,214 305,186 C356,164 390,124 402,76 C424,138 404,190 350,218 C280,252 170,250 82,266 Z"/>
+  <!-- amarelo principal -->
+  <path fill="url(#yellow)" d="M88,280 C175,258 262,262 342,246 C404,232 447,188 463,116 C484,194 455,252 386,274 C290,302 180,288 88,280 Z"/>
+  <!-- verde inferior -->
+  <path fill="#1E8E3E" d="M96,296 C190,290 296,300 382,284 C428,274 458,246 470,206 C470,262 436,302 372,316 C282,336 182,312 96,296 Z"/>
+
+  <!-- TRI -->
+  <path fill="#1E8E3E" d="M86,322 H206 V356 H165 V432 H127 V356 H86 Z"/>
+  <path fill="#E3211F" fill-rule="evenodd" d="M216,322 H284 C314,322 332,340 332,362 C332,382 320,395 302,400 L328,432 H284 L262,403 H254 V432 H216 Z M254,352 V374 H280 C290,374 295,369 295,363 C295,357 290,352 280,352 Z"/>
+  <path fill="#F7B500" d="M344,322 H384 V432 H344 Z"/>
+
+  <!-- CLIMATIZAÇÃO -->
+  <text x="88" y="490" textLength="342" lengthAdjust="spacing"
+        font-family="Montserrat, 'Arial Black', Arial, Helvetica, sans-serif"
+        font-weight="700" font-size="30" fill="#111111">CLIMATIZAÇÃO</text>
 </svg>
